@@ -1,0 +1,10 @@
+{
+  "sshUser": "pi",
+  "sshEndpoint": "sandbox.noodo.cloud",
+  "remoteDirectory": "/home/pi/Development/debug-tests/${workspaceFolderBasename}",
+  // "std": "c99",
+  "std": "c17",
+  // "libs":"-lbcm2835",
+  "libs":"",
+  "header":"/usr/local/include/stdio.h"
+}

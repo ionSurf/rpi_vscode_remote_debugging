@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"
+            ],
+            // "defines": [],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+                //  This might only apply for Windows
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            // "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            // "cStandard": "c99",  //  Win
+            // "cppStandard": "c++17",
+            "intelliSenseMode": "macos-gcc-arm64"
+            // "intelliSenseMode": "gcc-arm"    // win
+        }
+    ],
+    "version": 4
+}
